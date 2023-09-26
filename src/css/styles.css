@@ -1,0 +1,107 @@
+:root {
+  --color-primario: rgba(38, 128, 202, 0.918);
+  --shadow: 5px 6px 5px 0px rgba(20, 18, 20, 0.37);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  position : fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: var(--shadow) ;
+  color: var(--color-primario);
+}
+
+.container {
+  display: flex;
+  gap: 4px;
+  padding: 10px;
+}
+
+.form {
+  width: 20vw;
+  min-width: 200px;
+  height: 40vh;
+  box-shadow: var(--shadow);
+  margin: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+ 
+}
+
+.form p{
+  color: var(--color-primario);
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inpt{
+
+  width: 90%;
+  height: 30px;
+
+}
+
+.btn {
+  
+  border: none;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(38, 128, 202, 0.253);
+}
+
+.containerCards {
+  width: 80%;
+  height: 400px;
+  margin-top: 80px;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+
+
+.title {
+  color: var(--color-primario);
+  font-size: 25px;
+}
+
+.parrafo {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 20px;
+}
+
+
+.btn-card{
+  background-color: rgba(38, 128, 202, 0.253);
+  border: none;
+  width: 60px;
+  padding: 5px;
+  margin: 0 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
