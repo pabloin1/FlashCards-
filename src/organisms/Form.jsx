@@ -8,7 +8,7 @@ export function Form({ evento1, inputValues1, evento2, inputValues2, evento3 }) 
       <Title title='Crea tus cartas' />
 
       <Input
-        name={"Ingrese el titulo"}
+        name={"Ingrese el título"}
         evento={evento1}
         inputValue={inputValues1}
       />
