@@ -36,7 +36,6 @@ function App() {
     const updatedInfo = info.filter((card) => card.id !== id);
     setInfo(updatedInfo);
   };
-  
 
   return (
     <>

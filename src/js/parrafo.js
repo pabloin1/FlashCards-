@@ -3,13 +3,12 @@ export function salto(parrafo) {
   let newPalabra = ``;
   for (let index = 0; index < parrafo.length; index++) {
     if (limit == 18) {
-      newPalabra = newPalabra + '\n';
+      newPalabra = newPalabra + "\n";
       limit = 0;
-    }else{
-        newPalabra = newPalabra + parrafo[index]
-        
+    } else {
+      newPalabra = newPalabra + parrafo[index];
     }
-    limit = limit+1
+    limit = limit + 1;
   }
   console.log(newPalabra);
   return newPalabra;

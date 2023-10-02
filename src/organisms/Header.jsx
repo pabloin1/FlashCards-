@@ -1,14 +1,12 @@
 // src/components/organisms/Header.js
 
-import React from 'react';
-import Navigation from '../molecules/Navigation';
-import '../css/styles.css'
+import React from "react";
+import Navigation from "../molecules/Navigation";
+import "../css/styles.css";
 
-
-
-function Header () {
+function Header() {
   return (
-    <header className='header'>
+    <header className="header">
       <Navigation />
     </header>
   );

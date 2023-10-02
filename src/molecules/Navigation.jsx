@@ -1,9 +1,7 @@
-import React from 'react';
-import Text from '../atoms/Text';
+import React from "react";
+import Text from "../atoms/Text";
 
-const navigationStyle = {
-
-};
+const navigationStyle = {};
 
 function Navigation() {
   return (
